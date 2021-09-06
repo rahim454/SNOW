@@ -1,0 +1,64 @@
+@media (max-width: 992px) {
+    .myNavIcon {
+      display: initial;
+      color: #dee7ed;
+      font-size: 60px;
+      position: absolute;
+      right: 10px;
+      top: -11px;
+      cursor: pointer;
+    }
+    .navbarLogo {
+      width: 130px;
+      height: auto;
+    }
+    .navbarItem ul {
+      list-style: none;
+      display: initial;
+      margin-top: 74px;
+      position: absolute;
+      top: 0px;
+      left: -15px;
+      background: #00000057;
+      backdrop-filter: blur(13px);
+      z-index: 111;
+      padding: 20px 40px 20px 40px;
+      width: 104%;
+      transform-origin: top;
+      transform: scaleY(0);
+      transition: 0.5s all cubic-bezier(0.96, 0.01, 0, 0.99);
+    }
+    .navbarItem ul li {
+      margin-left: -15px;
+      font-size: 35px;
+    }
+    #myNav a {
+        color: #fff2ff !important;
+        font-size: 30px;
+    }
+    .skillBox_content {
+        margin-bottom: 50px;
+    }
+  }
+
+
+@media (max-width:390px) {
+    .myNavIcon {
+        top: -9px;
+    }
+    .aboutInformation_Box_top_name h1 {
+        font-size: 45px;
+    }
+}
+
+@media (max-width:992px) {
+    .aboutMycontainer{
+        clip-path: polygon(0 0, 15% 1%, 29% 5%, 44% 0, 46% 5%, 57% 0, 68% 4%, 79% 2%, 88% 4%, 100% 0, 100% 100%, 92% 93%, 86% 98%, 79% 93%, 63% 100%, 53% 94%, 39% 98%, 35% 94%, 25% 97%, 10% 95%, 0 100%);
+    }
+}
+
+/* all css which add by javaScript */
+
+.show_hidenavItem{
+    transform: scaleY(1) !important;
+}

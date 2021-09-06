@@ -1,0 +1,196 @@
+@keyframes nthchild1 {
+    0%{
+        top: 10%;
+    }
+    50%{
+        top: -335%;
+    }
+    100%{
+        top: 10%;
+    }
+}
+
+/* for nth child 2 */
+
+@keyframes nthchild2 {
+    0%{
+        top: 10%;
+    }
+    50%{
+        top: -230%;
+    }
+    100%{
+        top: 10%;
+    }
+}
+
+/* for nth child 3 */
+
+@keyframes nthchild3 {
+    0%{
+        top: 10%;
+    }
+    50%{
+        top: -575%;
+    }
+    100%{
+        top: 10%;
+    }
+}
+
+/* for nth child 4 */
+
+@keyframes nthchild4 {
+    0%{
+        top: 10%;
+    }
+    50%{
+        top: -177%;
+    }
+    100%{
+        top: 10%;
+    }
+}
+
+/* for nth child 5 */
+
+@keyframes nthchild5 {
+    0%{
+        top: 10%;
+    }
+    50%{
+        top: -400%;
+    }
+    100%{
+        top: 10%;
+    }
+}
+
+/* for nth child 6 */
+
+@keyframes nthchild6 {
+    0%{
+        top: 10%;
+    }
+    50%{
+        top: -172%;
+    }
+    100%{
+        top: 10%;
+    }
+}
+
+/* for nth child 7 */
+
+@keyframes nthchild7 {
+    0%{
+        top: 5%;
+    }
+    50%{
+        top: -114%;
+    }
+    100%{
+        top: 5%;
+    }
+}
+
+/* for nth child 8 */
+
+@keyframes nthchild8 {
+    0%{
+        top: 10%;
+    }
+    50%{
+        top: -360%;
+    }
+    100%{
+        top: 10%;
+    }
+}
+
+/* for last child */
+
+@keyframes lastchild {
+    0%{
+        top: 10%;
+    }
+    50%{
+        top: -15%;
+    }
+    100%{
+        top: 10%;
+    }
+}
+
+
+
+.portfolioBox_single:first-child .portfolio_single_monitor .portfolio_single_site {
+    width: 73% !important;
+    left: 59px;
+    animation-name: nthchild1;
+}
+
+.portfolioBox_single:nth-child(2) .portfolio_single_monitor .portfolio_single_site {
+    width: 73% !important;
+    left: 59px;
+    animation-name: nthchild2;
+}
+
+.portfolioBox_single:nth-child(3) .portfolio_single_monitor .portfolio_single_site {
+    width: 73% !important;
+    left: 59px;
+    animation-name: nthchild3;
+    animation-duration: 50s;
+}
+
+.portfolioBox_single:nth-child(4) .portfolio_single_monitor .portfolio_single_site {
+    width: 73% !important;
+    left: 59px;
+    animation-name: nthchild4;
+}
+
+.portfolioBox_single:nth-child(5) .portfolio_single_monitor .portfolio_single_site {
+    width: 73% !important;
+    left: 59px;
+    animation-name: nthchild5;
+}
+
+.portfolioBox_single:nth-child(6) .portfolio_single_monitor .portfolio_single_site {
+    width: 73% !important;
+    left: 59px;
+    animation-name: nthchild6;
+}
+
+.portfolioBox_single:nth-child(7) .portfolio_single_monitor .portfolio_single_site {
+    width: 73% !important;
+    left: 59px;
+    animation-name: nthchild7;
+    animation-duration: 12s;
+}
+
+.portfolioBox_single:nth-child(8) .portfolio_single_monitor .portfolio_single_site {
+    width: 74% !important;
+    left: 59px;
+    animation-name: nthchild8;
+}
+
+.portfolioBox_single:last-child .portfolio_single_monitor .portfolio_single_site {
+    width: 74% !important;
+    left: 59px;
+    animation-name: lastchild;
+    animation-duration: 9s;
+}
+
+/* monitor web up and down keyfrems stop */
+
+/* @keyframes updown {
+    0%{
+        transform: scaleY(0) !important;
+    }
+    50%{
+        transform: scaleY(1) !important;
+    }
+    100%{
+        transform: scaleY(1.1) !important;
+    }
+} */
